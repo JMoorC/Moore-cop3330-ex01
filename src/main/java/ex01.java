@@ -10,6 +10,7 @@ public class ex01 {
         Scanner inScan = new Scanner(System.in);
         System.out.print("What is your name? ");
         String name = inScan.nextLine();
-        System.out.printf("Hello, %s, nice to meet you!\n", name);
+        String output = "Hello, " + name + ", nice to meet you!";
+        System.out.println(output);
     }
 }
